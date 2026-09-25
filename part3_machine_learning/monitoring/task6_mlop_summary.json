@@ -1,0 +1,7 @@
+{
+  "model_version": "task1-v1-hist_gradient_boosting_regressor",
+  "status": "ALERT / Requires investigation",
+  "max_psi": 0.5081586741892994,
+  "max_psi_feature": "clouds_all",
+  "mlflow_run_id": "30988f9cb6d64bf38aa6fffca0972672"
+}

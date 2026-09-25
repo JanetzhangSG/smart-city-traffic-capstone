@@ -1,0 +1,30 @@
+{
+  "model_version": "task1-v1-hist_gradient_boosting_regressor",
+  "monitoring_method": "chronological baseline/current comparison",
+  "baseline_rows": 33730,
+  "current_rows": 14457,
+  "baseline_mae": 255.230548827392,
+  "current_mae": 228.19218691831742,
+  "mae_ratio": 0.8940629872352774,
+  "psi_threshold_alert": 0.2,
+  "feature_psi": {
+    "hour": 0.00011157528374507385,
+    "day_of_week": 0.00046226044093959954,
+    "month": 0.18958381932647148,
+    "temp": 0.14459509178699567,
+    "rain_1h": 0.016451302844182808,
+    "snow_1h": 0.008085210829836,
+    "clouds_all": 0.5081586741892994,
+    "weather_main": 0.03174373406078037,
+    "weather_description": 0.3042623457989041,
+    "holiday": 0.00047639515861144083
+  },
+  "max_psi_feature": "clouds_all",
+  "max_psi": 0.5081586741892994,
+  "alert_if_mae_ratio_ge": 1.5,
+  "status": "ALERT / Requires investigation",
+  "alerts": [
+    "Feature drift: clouds_all PSI=0.508"
+  ],
+  "note": "Monitoring is a capstone simulation using chronological slices of the supplied corridor dataset; thresholds are illustrative and not production policy."
+}

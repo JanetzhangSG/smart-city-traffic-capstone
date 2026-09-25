@@ -1,0 +1,8 @@
+Task 5 - Traffic Recommendation System
+Day type: Weekday
+Weather: Any
+Note: the dataset represents a single corridor, so recommendations concern travel timing rather than route choice.
+
+1. For a weekday journey, consider travelling between 02:00-03:00, when historical traffic volumes average about 302 vehicles/hour.
+2. For a weekday journey, consider travelling between 03:00-04:00, when historical traffic volumes average about 362 vehicles/hour.
+3. For a weekday journey, consider travelling between 01:00-02:00, when historical traffic volumes average about 397 vehicles/hour.

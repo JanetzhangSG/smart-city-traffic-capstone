@@ -1,0 +1,4 @@
+start_hour,end_hour,window,avg_traffic,observations,recommendation
+2,2,02:00-03:00,301.9828178694158,1455,"For a weekday journey, consider travelling between 02:00-03:00, when historical traffic volumes average about 302 vehicles/hour."
+3,3,03:00-04:00,362.28983516483515,1456,"For a weekday journey, consider travelling between 03:00-04:00, when historical traffic volumes average about 362 vehicles/hour."
+1,1,01:00-02:00,396.9130434782609,1449,"For a weekday journey, consider travelling between 01:00-02:00, when historical traffic volumes average about 397 vehicles/hour."

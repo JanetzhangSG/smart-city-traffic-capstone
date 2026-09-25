@@ -1,0 +1,11 @@
+2026-09-24 14:29:19,522 | INFO | __main__ | Part 3 Task 5 traffic recommendation started
+2026-09-24 14:29:19,576 | INFO | __main__ | Loaded recommendation input: 48187 rows x 9 columns
+2026-09-24 14:29:19,618 | INFO | __main__ | Prepared recommendation dataset: 48187 rows
+2026-09-24 14:29:19,623 | INFO | __main__ | Applied filters: day_type=Weekday weather=Any -> 34487 observations
+2026-09-24 14:29:19,637 | INFO | __main__ | Recommendation 1: For a weekday journey, consider travelling between 02:00-03:00, when historical traffic volumes average about 302 vehicles/hour.
+2026-09-24 14:29:19,637 | INFO | __main__ | Recommendation 2: For a weekday journey, consider travelling between 03:00-04:00, when historical traffic volumes average about 362 vehicles/hour.
+2026-09-24 14:29:19,637 | INFO | __main__ | Recommendation 3: For a weekday journey, consider travelling between 01:00-02:00, when historical traffic volumes average about 397 vehicles/hour.
+2026-09-24 14:29:19,987 | INFO | __main__ | Saved recommendations: results/task5_recommendations.csv
+2026-09-24 14:29:19,988 | INFO | __main__ | Saved recommendation summary: results/task5_recommendation_summary.txt
+2026-09-24 14:29:19,988 | INFO | __main__ | Figure saved: figures/task5_recommended_windows.png
+2026-09-24 14:29:19,988 | INFO | __main__ | Part 3 Task 5 completed successfully

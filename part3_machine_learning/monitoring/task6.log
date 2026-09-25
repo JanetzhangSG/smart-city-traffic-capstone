@@ -1,0 +1,8 @@
+2026-09-24 14:10:20,495 | INFO | __main__ | Part 3 Task 6 MLOps simulation started
+2026-09-24 14:10:20,645 | INFO | __main__ | Loaded monitoring dataset: 48187 rows x 9 columns
+2026-09-24 14:10:20,652 | INFO | __main__ | Saved model version registry: results/task6_model_version_registry.csv (4 records)
+2026-09-24 14:10:23,190 | WARNING | __main__ | Monitoring alert triggered: Feature drift: clouds_all PSI=0.508
+2026-09-24 14:10:23,191 | INFO | __main__ | Saved monitoring report: results/task6_monitoring_report.json
+2026-09-24 14:10:24,776 | INFO | __main__ | MLflow deployment/monitoring run saved: 30988f9cb6d64bf38aa6fffca0972672
+2026-09-24 14:10:24,792 | WARNING | __main__ | Task 6 completed with monitoring status ALERT / Requires investigation
+2026-09-24 14:10:24,792 | INFO | __main__ | Task 6 MLOps simulation completed successfully

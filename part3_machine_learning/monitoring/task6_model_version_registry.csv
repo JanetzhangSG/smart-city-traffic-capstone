@@ -1,0 +1,5 @@
+model_version,model,task,status,artifact,accuracy,precision,recall,f1,roc_auc,mae,r2
+task1-v1-logistic_regression,logistic_regression,classification,validated,models/logistic_regression.joblib,0.9655530192986096,0.7747093023255814,0.9797794117647058,0.8652597402597403,0.9934830796353628,,
+task1-v1-random_forest_classifier,random_forest_classifier,classification,validated,models/random_forest_classifier.joblib,0.9867192363560904,0.9363636363636364,0.9466911764705882,0.9414990859232176,0.9981669246646028,,
+task1-v1-linear_regression,linear_regression,regression,validated,models/linear_regression.joblib,,,,,,818.0308132628202,0.7148735645926061
+task1-v1-hist_gradient_boosting_regressor,hist_gradient_boosting_regressor,regression,validated,models/hist_gradient_boosting_regressor.joblib,,,,,,257.6017087561784,0.9506772653022968

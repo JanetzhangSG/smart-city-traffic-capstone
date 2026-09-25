@@ -1,0 +1,26 @@
+[
+  {
+    "start_hour":2,
+    "end_hour":2,
+    "window":"02:00-03:00",
+    "avg_traffic":301.9828178694,
+    "observations":1455,
+    "recommendation":"For a weekday journey, consider travelling between 02:00-03:00, when historical traffic volumes average about 302 vehicles\/hour."
+  },
+  {
+    "start_hour":3,
+    "end_hour":3,
+    "window":"03:00-04:00",
+    "avg_traffic":362.2898351648,
+    "observations":1456,
+    "recommendation":"For a weekday journey, consider travelling between 03:00-04:00, when historical traffic volumes average about 362 vehicles\/hour."
+  },
+  {
+    "start_hour":1,
+    "end_hour":1,
+    "window":"01:00-02:00",
+    "avg_traffic":396.9130434783,
+    "observations":1449,
+    "recommendation":"For a weekday journey, consider travelling between 01:00-02:00, when historical traffic volumes average about 397 vehicles\/hour."
+  }
+]
