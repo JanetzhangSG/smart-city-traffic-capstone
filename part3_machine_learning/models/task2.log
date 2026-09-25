@@ -1,0 +1,14 @@
+2026-09-24 14:28:10,449 | INFO | __main__ | Part 3 Task 2 unsupervised learning started
+2026-09-24 14:28:10,497 | INFO | __main__ | Loaded Task 2 input: 48187 rows x 9 columns
+2026-09-24 14:28:10,531 | INFO | __main__ | Congestion quartiles: Q1=1192.500, Q2=3379.000, Q3=4933.000
+2026-09-24 14:28:13,611 | INFO | __main__ | K-means candidate k=2 silhouette=0.3725
+2026-09-24 14:28:17,471 | INFO | __main__ | K-means candidate k=3 silhouette=0.3907
+2026-09-24 14:28:20,482 | INFO | __main__ | K-means candidate k=4 silhouette=0.3853
+2026-09-24 14:28:23,016 | INFO | __main__ | K-means candidate k=5 silhouette=0.3895
+2026-09-24 14:28:25,720 | INFO | __main__ | K-means candidate k=6 silhouette=0.4112
+2026-09-24 14:28:32,597 | INFO | __main__ | Selected k=6 with silhouette=0.4112; saved cluster summaries
+2026-09-24 14:28:32,768 | INFO | __main__ | Mined 125 congestion association rules; highest lift 3.663
+2026-09-24 14:28:33,030 | INFO | __main__ | Figure saved: figures/task2_k_selection.png
+2026-09-24 14:28:33,198 | INFO | __main__ | Figure saved: figures/task2_cluster_traffic.png
+2026-09-24 14:28:33,531 | INFO | __main__ | Figure saved: figures/task2_top_rules.png
+2026-09-24 14:28:33,538 | INFO | __main__ | Task 2 completed successfully; outputs saved under .

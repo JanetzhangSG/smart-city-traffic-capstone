@@ -1,0 +1,16 @@
+2026-09-24 14:28:02 | INFO | __main__ | Part 3 Task 1 supervised modelling started
+2026-09-24 14:28:02 | INFO | __main__ | Proxy-label note: no accident dataset was supplied; high_risk is a documented proxy only
+2026-09-24 14:28:02 | INFO | __main__ | Loaded supervised-learning input: 48187 rows x 9 columns
+2026-09-24 14:28:02 | INFO | __main__ | Proxy high-risk label created: 5438 positive / 42749 negative
+2026-09-24 14:28:02 | DEBUG | __main__ | Congestion quartiles: Q1=1192.500, Q2=3379.000, Q3=4933.000
+2026-09-24 14:28:02 | DEBUG | __main__ | SEVERE_WEATHER definition used: ['Fog', 'Snow', 'Squall', 'Thunderstorm']
+2026-09-24 14:28:02 | INFO | __main__ | Train/test split created: train=38549, test=9638
+2026-09-24 14:28:04 | INFO | __main__ | Saved classification model: models/logistic_regression.joblib
+2026-09-24 14:28:05 | INFO | __main__ | Saved classification model: models/random_forest_classifier.joblib
+2026-09-24 14:28:05 | INFO | __main__ | Saved regression model: models/linear_regression.joblib
+2026-09-24 14:28:07 | INFO | __main__ | Saved regression model: models/hist_gradient_boosting_regressor.joblib
+2026-09-24 14:28:07 | INFO | __main__ | Saved Task 1 metrics: results/task1_model_metrics.csv
+2026-09-24 14:28:07 | INFO | __main__ | Figure saved: figures/task1_model_comparison.png
+2026-09-24 14:28:07 | INFO | __main__ | Part 3 Task 1 completed successfully
+2026-09-24 14:28:07 | INFO | __main__ | Classification metrics summary: [{'task': 'classification', 'model': 'logistic_regression', 'accuracy': 0.9655530192986097, 'precision': 0.7747093023255814, 'recall': 0.9797794117647058, 'f1': 0.8652597402597403, 'roc_auc': 0.9934830796353629, 'mae': nan, 'r2': nan}, {'task': 'classification', 'model': 'random_forest_classifier', 'accuracy': 0.9867192363560905, 'precision': 0.9363636363636364, 'recall': 0.9466911764705882, 'f1': 0.9414990859232175, 'roc_auc': 0.9981669246646027, 'mae': nan, 'r2': nan}]
+2026-09-24 14:28:07 | INFO | __main__ | Regression metrics summary: [{'task': 'regression', 'model': 'linear_regression', 'accuracy': nan, 'precision': nan, 'recall': nan, 'f1': nan, 'roc_auc': nan, 'mae': 818.0308132628201, 'r2': 0.7148735645926061}, {'task': 'regression', 'model': 'hist_gradient_boosting_regressor', 'accuracy': nan, 'precision': nan, 'recall': nan, 'f1': nan, 'roc_auc': nan, 'mae': 258.28254155203507, 'r2': 0.9509463514724807}]

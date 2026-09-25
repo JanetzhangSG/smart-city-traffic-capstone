@@ -1,0 +1,126 @@
+antecedent,consequent,support,confidence,lift,antecedent_count,rule_count
+time_period=Overnight AND day_type=Weekend AND weather_main=Mist,congestion_category=Low,0.010604519891256978,0.9157706093189965,3.66300642078978,558,511
+time_period=Overnight AND day_type=Weekend,congestion_category=Low,0.06441571378172536,0.8860976306023408,3.544316969024238,3503,3104
+time_period=Overnight AND day_type=Weekend AND weather_main=Clouds,congestion_category=Low,0.013758897627990952,0.884,3.5359266207354527,750,663
+time_period=Overnight AND weather_main=Snow,congestion_category=Low,0.013447610351339572,0.8697986577181208,3.4791224304360493,745,648
+time_period=Morning AND day_type=Weekday AND weather_main=Rain,congestion_category=Severe,0.012285471185174425,0.8642335766423358,3.459734431973435,685,592
+time_period=Overnight AND day_type=Weekend AND weather_main=Clear,congestion_category=Low,0.021976881731587357,0.863080684596577,3.4522510955968504,1227,1059
+time_period=Late Evening AND day_type=Weekday AND weather_main=Clouds,congestion_category=Medium,0.03146076742689937,0.8550479413423576,3.4195530873486755,1773,1516
+time_period=Morning AND day_type=Weekday AND weather_main=Clear,congestion_category=Severe,0.02467470479589931,0.8535534816941852,3.4169794485667278,1393,1189
+time_period=Overnight AND weather_main=Clouds,congestion_category=Low,0.04922489468113807,0.8526240115025162,3.410425271210405,2782,2372
+time_period=Overnight AND weather_main=Clear,congestion_category=Low,0.06958308257413826,0.8512312769738513,3.4048544487041563,3939,3353
+time_period=Overnight,congestion_category=Low,0.2163239047875983,0.8487908150802052,3.395092803707964,12281,10424
+time_period=Overnight AND day_type=Weekday AND weather_main=Clear,congestion_category=Low,0.0476062008425509,0.8458702064896755,3.3834106117803593,2712,2294
+time_period=Overnight AND weather_main=Rain,congestion_category=Low,0.024321912549027744,0.8455988455988456,3.3823251907422236,1386,1172
+time_period=Late Evening AND weather_main=Rain,congestion_category=Medium,0.01653973063274327,0.8442796610169492,3.376488009413539,944,797
+time_period=Late Evening AND weather_main=Clouds,congestion_category=Medium,0.043538713760972875,0.8435866505830317,3.373716485321981,2487,2098
+time_period=Overnight AND day_type=Weekday AND weather_main=Clouds,congestion_category=Low,0.03546599705314712,0.8410433070866141,3.364103414840431,2032,1709
+time_period=Overnight AND day_type=Weekday AND weather_main=Rain,congestion_category=Low,0.017784879739348787,0.8377321603128055,3.3508591025975893,1023,857
+time_period=Overnight AND weather_main=Mist,congestion_category=Low,0.03505094735094528,0.836552748885587,3.3461415547895554,2019,1689
+time_period=Overnight AND day_type=Weekday,congestion_category=Low,0.15190819100587297,0.833902939166097,3.3355425358675785,8778,7320
+time_period=Late Evening AND day_type=Weekday AND weather_main=Rain,congestion_category=Medium,0.01191192645319277,0.8294797687861272,3.3172994952690775,692,574
+time_period=Morning AND day_type=Weekday AND weather_main=Mist,congestion_category=Severe,0.018947018905513934,0.827742520398912,3.3136519756137224,1103,913
+time_period=Late Evening AND day_type=Weekend AND weather_main=Clear,congestion_category=Medium,0.013219333015128561,0.8283485045513654,3.312775283327799,769,637
+time_period=Late Evening AND day_type=Weekend,congestion_category=Medium,0.03874488970054164,0.8272042534337616,3.3081991335557035,2257,1867
+time_period=Midday AND day_type=Weekend AND weather_main=Clouds,congestion_category=High,0.022288169008238736,0.8267898383371824,3.3051702289658045,1299,1074
+time_period=Late Evening,congestion_category=Medium,0.1368626393010563,0.8248905565978737,3.298946074427898,7995,6595
+time_period=Late Evening AND day_type=Weekday,congestion_category=Medium,0.09811774960051466,0.8239804810038341,3.2953064518326634,5738,4728
+time_period=Late Evening AND weather_main=Clear,congestion_category=Medium,0.04436881316537655,0.823257604928764,3.292415487484634,2597,2138
+time_period=Morning AND day_type=Weekday,congestion_category=Severe,0.1003175130221844,0.8216896141424443,3.2894207391112373,5883,4834
+time_period=Late Evening AND day_type=Weekday AND weather_main=Clear,congestion_category=Medium,0.03114948015024799,0.8211159737417943,3.2838505624280727,1828,1501
+time_period=Morning AND day_type=Weekday AND weather_main=Clouds,congestion_category=Severe,0.026978230643119515,0.8165829145728644,3.268977395075402,1592,1300
+time_period=Midday AND day_type=Weekend AND weather_main=Clear,congestion_category=High,0.014941789279266192,0.8172531214528944,3.2670463052472725,881,720
+time_period=Late Evening AND day_type=Weekend AND weather_main=Clouds,congestion_category=Medium,0.012077946334073506,0.8151260504201681,3.2598953433145192,714,582
+time_period=Overnight AND day_type=Weekday AND weather_main=Mist,congestion_category=Low,0.024446427459688298,0.8062970568104039,3.2251212979599013,1461,1178
+time_period=Midday AND day_type=Weekend,congestion_category=High,0.05572042252059684,0.8043738765727981,3.215560311134347,3338,2685
+time_period=Evening Peak AND day_type=Weekend AND weather_main=Clouds,congestion_category=High,0.013966422479091871,0.7862149532710281,3.1429683053982935,856,673
+time_period=Late Evening AND weather_main=Mist,congestion_category=Medium,0.012617510946935896,0.7794871794871795,3.1173664800355816,780,608
+time_period=Evening Peak AND day_type=Weekend,congestion_category=High,0.033785045759229665,0.7330031517334534,2.930249118349089,2221,1628
+time_period=Morning AND day_type=Weekend,congestion_category=Medium,0.03243613422707369,0.6564468710625787,2.6252971512899395,2381,1563
+time_period=Midday AND weather_main=Mist,congestion_category=High,0.014298462240853342,0.6512287334593573,2.603348181450643,1058,689
+time_period=Morning AND weather_main=Rain,congestion_category=Severe,0.012285471185174425,0.6351931330472103,2.5428305642723203,932,592
+time_period=Morning AND weather_main=Mist,congestion_category=Severe,0.018947018905513934,0.6030383091149274,2.4141070865930887,1514,913
+time_period=Midday AND weather_main=Rain,congestion_category=High,0.017266067611596488,0.6033357505438723,2.411891472661156,1379,832
+time_period=Morning AND weather_main=Clouds,congestion_category=Severe,0.026978230643119515,0.5866425992779783,2.3484711249819674,2216,1300
+time_period=Morning,congestion_category=Severe,0.1003175130221844,0.584946757018393,2.341682261397799,8264,4834
+time_period=Morning AND weather_main=Clear,congestion_category=Severe,0.02467470479589931,0.5842751842751843,2.338993794522581,2035,1189
+time_period=Midday,congestion_category=High,0.14271484010210223,0.5834888851179365,2.3325517593477687,11786,6877
+time_period=Midday AND weather_main=Clear,congestion_category=High,0.034718907589183806,0.5763003789183603,2.3038150289479864,2903,1673
+time_period=Midday AND weather_main=Clouds,congestion_category=High,0.051652935439018825,0.5512735326688815,2.2037678545474857,4515,2489
+time_period=Midday AND day_type=Weekday AND weather_main=Clouds,congestion_category=Severe,0.03569427438935813,0.5348258706467661,2.1410363237397787,3216,1720
+time_period=Evening Peak AND day_type=Weekday AND weather_main=Clouds,congestion_category=Severe,0.025048249527880963,0.5243266724587315,2.0990055134808423,2302,1207
+time_period=Midday AND day_type=Weekday AND weather_main=Rain,congestion_category=High,0.010791292257247806,0.518444666001994,2.0725313688931544,1003,520
+time_period=Midday AND day_type=Weekday AND weather_main=Clear,congestion_category=Severe,0.0216033369996057,0.5148367952522255,2.061015257358062,2022,1041
+time_period=Midday AND day_type=Weekday,congestion_category=High,0.08699441758150539,0.4962121212121212,1.9836546776877786,8448,4192
+time_period=Evening Peak AND weather_main=Clear,congestion_category=High,0.019652603399257063,0.49581151832460735,1.9820532299243283,1910,947
+time_period=Evening Peak AND day_type=Weekday AND weather_main=Clear,congestion_category=Severe,0.013364600410899204,0.49047981721249045,1.9635084283474518,1313,644
+time_period=Evening Peak AND day_type=Weekday,congestion_category=Severe,0.056633531865440886,0.4838652482269504,1.937028721135836,5640,2729
+time_period=Midday AND day_type=Weekday,congestion_category=Severe,0.08402681221076223,0.4792850378787879,1.9186930398159967,8448,4049
+time_period=Midday AND day_type=Weekday AND weather_main=Clear,congestion_category=High,0.019777118309917612,0.4713155291790307,1.8841282067819771,2022,953
+time_period=Evening Peak AND weather_main=Rain,congestion_category=High,0.010044202793284496,0.469447138700291,1.8766591399162869,1031,484
+time_period=Evening Peak,congestion_category=High,0.07545603586029427,0.46253657295509476,1.8490335026536544,7861,3636
+time_period=Evening Peak AND weather_main=Clouds,congestion_category=High,0.030236370805403947,0.46136795440151995,1.844361839949066,3158,1457
+day_type=Weekend AND weather_main=Clouds,congestion_category=High,0.039367464253844395,0.44708932359179826,1.7872816688168227,4243,1897
+time_period=Midday AND day_type=Weekday AND weather_main=Clouds,congestion_category=High,0.029364766430780086,0.4399875621890547,1.7588917089102356,3216,1415
+time_period=Midday AND weather_main=Clouds,congestion_category=Severe,0.03866187976010127,0.412624584717608,1.6518352466384794,4515,1863
+day_type=Weekend AND weather_main=Mist,congestion_category=Low,0.013655135202440492,0.39710319855159926,1.5883798313775972,1657,658
+time_period=Evening Peak AND weather_main=Clouds,congestion_category=Severe,0.025961358872725007,0.396136795440152,1.5858306689270254,3158,1251
+day_type=Weekday AND weather_main=Clouds,congestion_category=Severe,0.0877207545603586,0.3872652313330279,1.5503156685423791,10915,4227
+time_period=Midday AND weather_main=Clear,congestion_category=Severe,0.02328428829352315,0.3864967275232518,1.5472391633432696,2903,1122
+time_period=Evening Peak AND day_type=Weekday AND weather_main=Clear,congestion_category=High,0.010230975159275324,0.37547600913937546,1.5010007012111402,1313,493
+day_type=Weekend AND weather_main=Rain,congestion_category=High,0.011725154087201942,0.3719552337063858,1.4869260699029045,1519,565
+time_period=Midday,congestion_category=Severe,0.09070911241621184,0.3708637366366876,1.4846565487506909,11786,4371
+time_period=Midday AND weather_main=Rain,congestion_category=Severe,0.01041774752526615,0.3640319071791153,1.4573070957248508,1379,502
+time_period=Evening Peak,congestion_category=Severe,0.05875028534667026,0.3601322986897341,1.4416960269969443,7861,2831
+day_type=Weekend AND weather_main=Mist,congestion_category=Medium,0.012306223670284517,0.35787567893783945,1.4312354005293113,1657,593
+time_period=Evening Peak AND day_type=Weekday,congestion_category=High,0.0416709901010646,0.35602836879432626,1.4232569277494773,5640,2008
+time_period=Evening Peak AND weather_main=Clear,congestion_category=Severe,0.013904165023761595,0.3507853403141361,1.404277909256233,1910,670
+day_type=Weekend AND weather_main=Clear,congestion_category=Medium,0.029821321103202108,0.3491253644314869,1.396240678550922,4116,1437
+day_type=Weekend,congestion_category=High,0.09865731421337705,0.347007299270073,1.387194352905841,13700,4754
+day_type=Weekday AND weather_main=Rain,congestion_category=Severe,0.029427023886110362,0.34143992294726705,1.366865960543321,4153,1418
+time_period=Evening Peak AND day_type=Weekday AND weather_main=Clouds,congestion_category=High,0.016269948326312077,0.34057341442224154,1.361474292414514,2302,784
+day_type=Weekend,congestion_category=Medium,0.09583497623840455,0.3370802919708029,1.348069385774511,13700,4618
+day_type=Weekday,congestion_category=Severe,0.2409986095834976,0.3367355815234726,1.3480333527350314,34487,11613
+day_type=Weekend AND weather_main=Rain,congestion_category=Medium,0.010459252495486335,0.3317972350230415,1.3269411041626111,1519,504
+weather_main=Mist,congestion_category=Low,0.04079938572644074,0.33047571020339556,1.3218754086138476,5949,1966
+day_type=Weekend AND weather_main=Clear,congestion_category=High,0.0272687654346608,0.31924198250728864,1.276199884775072,4116,1314
+day_type=Weekday AND weather_main=Mist,congestion_category=Severe,0.02799510241351402,0.3143056849953402,1.258241093534141,4292,1349
+day_type=Weekday AND weather_main=Clear,congestion_category=Severe,0.059663394691514306,0.3102071644367717,1.2418337320523982,9268,2875
+day_type=Weekend AND weather_main=Clear,congestion_category=Low,0.026106626268495654,0.30563654033041787,1.2225207909771598,4116,1258
+day_type=Weekday AND weather_main=Mist,congestion_category=Low,0.027144250524000248,0.3047530288909599,1.218986818558038,4292,1308
+day_type=Weekend AND weather_main=Clouds,congestion_category=Medium,0.02683296324734887,0.30473721423521094,1.2187212334925812,4243,1293
+weather_main=Clouds,congestion_category=Severe,0.0916014692759458,0.2911993666710648,1.165740955535316,15158,4414
+day_type=Weekday AND weather_main=Snow,congestion_category=High,0.013032560649137733,0.2908754052802223,1.162801821323882,2159,628
+weather_main=Clouds,congestion_category=High,0.09143544939506507,0.290671592558385,1.1619870607774097,15158,4406
+day_type=Weekend,congestion_category=Low,0.08101770186979891,0.284963503649635,1.13983036028596,13700,3904
+weather_main=Clear,congestion_category=Low,0.07885944341834934,0.2839210998206814,1.13566083149823,13384,3800
+weather_main=Snow,congestion_category=High,0.016684998028513913,0.2796521739130435,1.1179358971584392,2875,804
+day_type=Weekday AND weather_main=Clear,congestion_category=Low,0.05275281714985369,0.27427708243418214,1.0970855624849285,9268,2542
+weather_main=Snow,congestion_category=Low,0.01610392844543134,0.2699130434782609,1.0796297689123397,2875,776
+weather_main=Clear,congestion_category=Medium,0.0746051839707805,0.2686043036461446,1.074216580612231,13384,3595
+weather_main=Snow,congestion_category=Medium,0.01591715607944051,0.2667826086956522,1.0669311615252215,2875,767
+weather_main=Rain,congestion_category=Severe,0.030319380745844313,0.25758110014104374,1.0311589658965252,5672,1461
+weather_main=Rain,congestion_category=High,0.03017411335007367,0.2563469675599436,1.0247711403526631,5672,1454
+weather_main=Rain,congestion_category=Medium,0.028928964243468157,0.24576868829337095,0.9828911762629817,5672,1394
+weather_main=Mist,congestion_category=Medium,0.030194865835183764,0.24457892082702976,0.9781329950943717,5949,1455
+day_type=Weekday AND weather_main=Snow,congestion_category=Low,0.010832797227467989,0.24177860120426123,0.9670943352062534,2159,522
+weather_main=Rain,congestion_category=Low,0.028285637205055305,0.24030324400564174,0.9611930288785472,5672,1363
+day_type=Weekday AND weather_main=Snow,congestion_category=Severe,0.01062527237636707,0.23714682723483094,0.9493556670237433,2159,512
+day_type=Weekday,congestion_category=Low,0.1689874862514786,0.23611795749122858,0.9444522302340691,34487,8143
+weather_main=Clouds,congestion_category=Medium,0.07427314420901902,0.23611294366011348,0.9442754100879649,15158,3579
+day_type=Weekday AND weather_main=Clear,congestion_category=Medium,0.04478386286757839,0.23284419507984463,0.9312028573584924,9268,2158
+weather_main=Mist,congestion_category=Severe,0.02867993442214705,0.23230795091612036,0.9299844837413883,5949,1382
+day_type=Weekday AND weather_main=Rain,congestion_category=Low,0.01983937576524789,0.23019503973031544,0.9207610508412641,4153,956
+day_type=Weekday AND weather_main=Snow,congestion_category=Medium,0.010313985099715692,0.2301991662806855,0.9206247178659966,2159,497
+day_type=Weekday AND weather_main=Clouds,congestion_category=High,0.052067985141220664,0.2298671552908841,0.9189155974781676,10915,2509
+time_period=Morning AND day_type=Weekend,congestion_category=Low,0.011330856870110196,0.22931541369172617,0.917242619703097,2381,546
+weather_main=Clear,congestion_category=High,0.062402722726046446,0.2246712492528392,0.8981444738465707,13384,3007
+weather_main=Clear,congestion_category=Severe,0.061883910598294144,0.22280334728033474,0.891935274187712,13384,2982
+day_type=Weekday,congestion_category=Medium,0.15421171685309315,0.21547249688288342,0.8617290403598228,34487,7431
+day_type=Weekday AND weather_main=Rain,congestion_category=Medium,0.018469711747981822,0.21430291355646522,0.8570515806743623,4153,890
+day_type=Weekday AND weather_main=Rain,congestion_category=High,0.01844895926287173,0.21406212376595232,0.8557334957615683,4153,889
+day_type=Weekday,congestion_category=High,0.1514931413036711,0.2116739641024154,0.8461866026383849,34487,7300
+day_type=Weekday AND weather_main=Clouds,congestion_category=Medium,0.04744018096167016,0.20943655519926707,0.8375897821717224,10915,2286
+time_period=Morning,congestion_category=Medium,0.035362234627596655,0.20619554695062922,0.8246281700481344,8264,1704
+day_type=Weekend AND weather_main=Clouds,congestion_category=Low,0.017971652105339613,0.20410087202451097,0.8163865460484029,4243,866
+day_type=Weekday AND weather_main=Mist,congestion_category=Medium,0.017888642164899247,0.20083876980428705,0.8032050627072107,4292,862

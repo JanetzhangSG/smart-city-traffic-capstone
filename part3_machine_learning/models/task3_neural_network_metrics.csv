@@ -1,0 +1,2 @@
+model,mae,r2,iterations,hidden_layers,random_state
+MLPRegressor_neural_network,282.7687535054997,0.946714507080153,300,"32,16",42

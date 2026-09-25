@@ -1,0 +1,7 @@
+cluster,records,avg_hour,avg_weather_severity,avg_traffic,share_pct,dominant_time_period,dominant_weather,dominant_congestion,interpretation
+0,5137,10.571150476932061,1.456492116021024,4742.831419116215,10.660551601054227,Midday,Mist,Severe,Midday conditions with Severe traffic; dominant weather Mist; average traffic 4743 vehicles/hour.
+1,8919,20.819262249131068,0.08846283215607131,2565.833277273237,18.509141469690995,Late Evening,Clouds,Medium,Late Evening conditions with Medium traffic; dominant weather Clouds; average traffic 2566 vehicles/hour.
+2,9225,9.314037940379404,0.0,4789.169430894309,19.14416751405981,Morning,Clouds,Severe,Morning conditions with Severe traffic; dominant weather Clouds; average traffic 4789 vehicles/hour.
+3,5488,7.442419825072887,1.4517128279883382,1136.5466472303208,11.388963828418452,Overnight,Mist,Low,Overnight conditions with Low traffic; dominant weather Mist; average traffic 1137 vehicles/hour.
+4,9384,2.8273657289002556,0.0,850.4148550724638,19.47413202731027,Overnight,Clear,Low,Overnight conditions with Low traffic; dominant weather Clear; average traffic 850 vehicles/hour.
+5,10034,15.540562088897747,0.07364959138927646,5125.062587203508,20.823043559466246,Evening Peak,Clouds,Severe,Evening Peak conditions with Severe traffic; dominant weather Clouds; average traffic 5125 vehicles/hour.

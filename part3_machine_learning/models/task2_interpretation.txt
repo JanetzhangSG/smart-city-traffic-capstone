@@ -1,0 +1,21 @@
+K-means selected k=6.
+
+Cluster interpretations:
+Cluster 0: Midday conditions with Severe traffic; dominant weather Mist; average traffic 4743 vehicles/hour.
+Cluster 1: Late Evening conditions with Medium traffic; dominant weather Clouds; average traffic 2566 vehicles/hour.
+Cluster 2: Morning conditions with Severe traffic; dominant weather Clouds; average traffic 4789 vehicles/hour.
+Cluster 3: Overnight conditions with Low traffic; dominant weather Mist; average traffic 1137 vehicles/hour.
+Cluster 4: Overnight conditions with Low traffic; dominant weather Clear; average traffic 850 vehicles/hour.
+Cluster 5: Evening Peak conditions with Severe traffic; dominant weather Clouds; average traffic 5125 vehicles/hour.
+
+Highest-lift congestion rules:
+time_period=Overnight AND day_type=Weekend AND weather_main=Mist -> congestion_category=Low; support=0.011, confidence=0.916, lift=3.663.
+time_period=Overnight AND day_type=Weekend -> congestion_category=Low; support=0.064, confidence=0.886, lift=3.544.
+time_period=Overnight AND day_type=Weekend AND weather_main=Clouds -> congestion_category=Low; support=0.014, confidence=0.884, lift=3.536.
+time_period=Overnight AND weather_main=Snow -> congestion_category=Low; support=0.013, confidence=0.870, lift=3.479.
+time_period=Morning AND day_type=Weekday AND weather_main=Rain -> congestion_category=Severe; support=0.012, confidence=0.864, lift=3.460.
+time_period=Overnight AND day_type=Weekend AND weather_main=Clear -> congestion_category=Low; support=0.022, confidence=0.863, lift=3.452.
+time_period=Late Evening AND day_type=Weekday AND weather_main=Clouds -> congestion_category=Medium; support=0.031, confidence=0.855, lift=3.420.
+time_period=Morning AND day_type=Weekday AND weather_main=Clear -> congestion_category=Severe; support=0.025, confidence=0.854, lift=3.417.
+time_period=Overnight AND weather_main=Clouds -> congestion_category=Low; support=0.049, confidence=0.853, lift=3.410.
+time_period=Overnight AND weather_main=Clear -> congestion_category=Low; support=0.070, confidence=0.851, lift=3.405.

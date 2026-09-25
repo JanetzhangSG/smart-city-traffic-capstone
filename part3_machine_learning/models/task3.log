@@ -1,0 +1,18 @@
+2026-09-24 14:28:47,728 | INFO | __main__ | Part 3 Task 3 deep learning started
+2026-09-24 14:28:47,856 | INFO | __main__ | Loaded input dataset: 48187 rows x 9 columns
+2026-09-24 14:28:48,027 | INFO | __main__ | Built Task 3 feature set: 48187 rows x 23 features
+2026-09-24 14:28:48,027 | INFO | __main__ | Feature set includes time, weather encodings, holiday flag, and cyclical hour/day features
+2026-09-24 14:28:48,034 | INFO | __main__ | Sampled 12000 observations for efficient neural-network training
+2026-09-24 14:28:48,037 | INFO | __main__ | Train/test split created: train=9600, test=2400
+2026-09-24 14:28:48,043 | INFO | __main__ | Feature scaling completed for neural network
+2026-09-24 14:28:58,637 | INFO | __main__ | Neural network trained: iterations=300, MAE=282.7688, R2=0.9467
+2026-09-24 14:28:58,640 | INFO | __main__ | Saved neural-network model and scaler
+2026-09-24 14:28:58,644 | INFO | __main__ | Saved neural-network metrics: results/task3_neural_network_metrics.csv
+2026-09-24 14:28:58,644 | INFO | __main__ | Training comparable Random Forest regressor for SHAP explainability
+2026-09-24 14:28:58,886 | INFO | __main__ | Comparable Random Forest trained for SHAP
+2026-09-24 14:28:58,912 | INFO | __main__ | Computing SHAP values using 300 test observations
+2026-09-24 14:29:02,789 | INFO | __main__ | Saved SHAP feature importance table
+2026-09-24 14:29:03,071 | INFO | __main__ | Figure saved: figures/task3_shap_feature_importance.png
+2026-09-24 14:29:03,275 | INFO | __main__ | Figure saved: figures/task3_neural_network_predictions.png
+2026-09-24 14:29:03,275 | INFO | __main__ | Explainability note: SHAP is applied to a comparable Random Forest trained on the same features and target because tree-based SHAP is more direct to interpret than the MLP
+2026-09-24 14:29:03,275 | INFO | __main__ | Part 3 Task 3 completed successfully
