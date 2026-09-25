@@ -83,3 +83,12 @@ The project documents model versions, extends MLflow tracking, serves a traffic-
 The primary execution record is `notebooks/Capstone_Part3_Final_Execution.ipynb`, which contains the clean sequential execution of Tasks 1-6. The final reports contain the methodology, findings and limitations across the completed tasks.
 
 The Part 3 scripts use Python logging with `logging.getLogger(__name__)` for internal status and progress reporting. The Task 6 monitoring thresholds are illustrative simulation thresholds rather than production policy.
+
+### Large model artifact
+
+`random_forest_classifier.joblib` is not stored in this GitHub repository because the serialized model exceeds GitHub's browser-upload size limit.
+
+All other Task 1–3 modelling scripts, results, figures, logs and model artifacts are retained under `models/`. The Random Forest classifier can be reproduced by running `models/task1_supervised_models.py` or the included
+`notebooks/Capstone_Part3_Final_Execution.ipynb`.
+
+Its evaluation results are retained in `models/task1_model_metrics.csv`, `models/task1_model_comparison.png`, `models/task1.log`, and`final_capstone_report.pdf`.
