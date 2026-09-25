@@ -1,0 +1,64 @@
+2026-09-21 15:43:59 | INFO | __main__ | Pipeline started
+2026-09-21 15:43:59 | INFO | __main__ | Raw file loaded successfully: 48204 rows x 9 columns
+2026-09-21 15:43:59 | INFO | __main__ | Validating input schema before cleaning
+2026-09-21 15:43:59 | INFO | __main__ | Schema validation passed: all 9 expected columns are present
+2026-09-21 15:43:59 | INFO | __main__ | Cleaning step 1/5: standardizing categorical values
+2026-09-21 15:43:59 | WARNING | __main__ | Standardized 48143 blank holiday entries to 'None' to represent non-holiday observations
+2026-09-21 15:43:59 | INFO | __main__ | No additional categorical values required standardization
+2026-09-21 15:43:59 | INFO | __main__ | Categorical standardization completed
+2026-09-21 15:43:59 | INFO | __main__ | Cleaning step 2/5: parsing and validating date/time
+2026-09-21 15:43:59 | INFO | __main__ | Date/time parsing completed; 0 values failed validation
+2026-09-21 15:43:59 | INFO | __main__ | Cleaning step 3/5: validating numeric columns
+2026-09-21 15:43:59 | INFO | __main__ | Numeric type validation completed
+2026-09-21 15:43:59 | INFO | __main__ | Cleaning step 4/5: removing duplicate rows
+2026-09-21 15:43:59 | WARNING | __main__ | Dropped 17 duplicate rows
+2026-09-21 15:43:59 | INFO | __main__ | Cleaning step 5/5: detecting and handling outliers/impossible values
+2026-09-21 15:43:59 | WARNING | __main__ | Imputed 10 physically implausible temperature values using monthly medians
+2026-09-21 15:43:59 | WARNING | __main__ | Imputed 120 rain_1h values outside the plausible range using monthly medians
+2026-09-21 15:43:59 | INFO | __main__ | No snow_1h values outside the plausible range detected
+2026-09-21 15:43:59 | INFO | __main__ | No impossible clouds_all values detected
+2026-09-21 15:43:59 | INFO | __main__ | No impossible traffic_volume values detected
+2026-09-21 15:43:59 | INFO | __main__ | Outlier/impossible-value handling completed; 130 values affected
+2026-09-21 15:43:59 | INFO | __main__ | Cleaning pipeline completed: 48187 rows remain
+2026-09-21 15:43:59 | INFO | __main__ | Cleaned dataset saved: /mnt/data/capstone_part2/part2_python/outputs/traffic_cleaned.csv
+2026-09-21 15:43:59 | INFO | __main__ | Pipeline completed successfully
+2026-09-21 15:44:00 | INFO | __main__ | Feature engineering started
+2026-09-21 15:44:00 | INFO | __main__ | Feature-engineering input schema validation passed
+2026-09-21 15:44:00 | INFO | __main__ | Loaded cleaned dataset: 48187 rows x 9 columns
+2026-09-21 15:44:00 | INFO | __main__ | Shape before feature engineering: (48187, 9)
+2026-09-21 15:44:00 | INFO | __main__ | Encoded weather_main into 11 one-hot features
+2026-09-21 15:44:00 | DEBUG | __main__ | Scaling ranges: temp=(243.390, 310.070), traffic_volume=(0.000, 7280.000)
+2026-09-21 15:44:00 | DEBUG | __main__ | Congestion quartile thresholds: Q1=1192.500, Q2=3379.000, Q3=4933.000
+2026-09-21 15:44:00 | INFO | __main__ | Created data-driven congestion_category using traffic-volume quartiles
+2026-09-21 15:44:00 | DEBUG | __main__ | Congestion category counts: {'High': 12054, 'Medium': 12049, 'Low': 12047, 'Severe': 12037}
+2026-09-21 15:44:00 | INFO | __main__ | Shape after feature engineering: (48187, 36)
+2026-09-21 15:44:00 | INFO | __main__ | Feature-engineered dataset saved: outputs/traffic_features.csv
+2026-09-21 15:44:00 | INFO | __main__ | Feature engineering completed successfully
+2026-09-21 15:44:01 | INFO | __main__ | Visualisation task started
+2026-09-21 15:44:02 | INFO | __main__ | Loaded feature-engineered dataset: 48187 rows x 36 columns
+2026-09-21 15:44:02 | INFO | __main__ | Figure saved: figures/traffic_by_hour.png (hourly traffic demand)
+2026-09-21 15:44:02 | INFO | __main__ | Hourly interpretation: peak average traffic occurs around hour 16 (5663.76), while the lowest occurs around hour 3 (371.09)
+2026-09-21 15:44:02 | INFO | __main__ | Figure saved: figures/weekday_vs_weekend.png (weekday versus weekend traffic)
+2026-09-21 15:44:02 | INFO | __main__ | Weekday/weekend interpretation: weekday average 3533.29 vs weekend average 2570.70 vehicles/hour
+2026-09-21 15:44:02 | INFO | __main__ | Figure saved: figures/temperature_vs_traffic.png (temperature and traffic relationship)
+2026-09-21 15:44:02 | INFO | __main__ | Temperature/traffic interpretation: Pearson correlation 0.1323; 0 observations are below -100°C and should be treated as anomalies
+2026-09-21 15:44:02 | INFO | __main__ | All visualisations created successfully
+2026-09-21 15:44:02 | INFO | __main__ | Visualisation task completed successfully
+2026-09-21 15:44:03 | INFO | __main__ | CLI command invoked: hourly | arguments={'input': PosixPath('outputs/traffic_features.csv'), 'log': PosixPath('logs/pipeline.log'), 'log_level': 'INFO', 'command': 'hourly', 'hour': '16'}
+2026-09-21 15:44:03 | INFO | __main__ | Loaded feature-engineered dataset: 48187 rows x 36 columns
+2026-09-21 15:44:03 | INFO | __main__ | CLI command completed successfully: hourly
+2026-09-21 15:44:04 | INFO | __main__ | CLI command invoked: compare | arguments={'input': PosixPath('outputs/traffic_features.csv'), 'log': PosixPath('logs/pipeline.log'), 'log_level': 'INFO', 'command': 'compare'}
+2026-09-21 15:44:04 | INFO | __main__ | Loaded feature-engineered dataset: 48187 rows x 36 columns
+2026-09-21 15:44:04 | INFO | __main__ | CLI command completed successfully: compare
+2026-09-21 15:44:05 | INFO | __main__ | CLI command invoked: recommend | arguments={'input': PosixPath('outputs/traffic_features.csv'), 'log': PosixPath('logs/pipeline.log'), 'log_level': 'INFO', 'command': 'recommend'}
+2026-09-21 15:44:05 | INFO | __main__ | Loaded feature-engineered dataset: 48187 rows x 36 columns
+2026-09-21 15:44:05 | INFO | __main__ | CLI command completed successfully: recommend
+2026-09-21 15:44:05 | INFO | __main__ | CLI command invoked: weather | arguments={'input': PosixPath('outputs/traffic_features.csv'), 'log': PosixPath('logs/pipeline.log'), 'log_level': 'INFO', 'command': 'weather', 'condition': 'Clear'}
+2026-09-21 15:44:05 | INFO | __main__ | Loaded feature-engineered dataset: 48187 rows x 36 columns
+2026-09-21 15:44:06 | INFO | __main__ | CLI command completed successfully: weather
+2026-09-21 15:44:06 | INFO | __main__ | CLI command invoked: date | arguments={'input': PosixPath('outputs/traffic_features.csv'), 'log': PosixPath('logs/pipeline.log'), 'log_level': 'INFO', 'command': 'date', 'date': '2017-08-01'}
+2026-09-21 15:44:06 | INFO | __main__ | Loaded feature-engineered dataset: 48187 rows x 36 columns
+2026-09-21 15:44:06 | INFO | __main__ | CLI command completed successfully: date
+2026-09-21 15:44:07 | INFO | __main__ | CLI command invoked: date | arguments={'input': PosixPath('outputs/traffic_features.csv'), 'log': PosixPath('logs/pipeline.log'), 'log_level': 'INFO', 'command': 'date', 'date': '2017-99-99'}
+2026-09-21 15:44:07 | INFO | __main__ | Loaded feature-engineered dataset: 48187 rows x 36 columns
+2026-09-21 15:44:07 | ERROR | __main__ | CLI command failed: Date must use YYYY-MM-DD format
