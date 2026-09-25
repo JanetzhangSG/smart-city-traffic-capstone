@@ -1,0 +1,5 @@
+2026-09-24 14:10:28,947 | INFO | httpx2 | HTTP Request: GET http://testserver/health "HTTP/1.1 200 OK"
+2026-09-24 14:10:28,947 | INFO | __main__ | Health response: {'status': 'ok', 'model_version': 'task1-v1-hist_gradient_boosting_regressor'}
+2026-09-24 14:10:29,048 | INFO | task6_api | API prediction generated for 2017-08-01T16:00:00: 6432.68 vehicles/hour
+2026-09-24 14:10:29,052 | INFO | httpx2 | HTTP Request: POST http://testserver/predict "HTTP/1.1 200 OK"
+2026-09-24 14:10:29,052 | INFO | __main__ | Prediction response: {'model_version': 'task1-v1-hist_gradient_boosting_regressor', 'prediction_traffic_volume': 6432.68, 'units': 'vehicles/hour'}

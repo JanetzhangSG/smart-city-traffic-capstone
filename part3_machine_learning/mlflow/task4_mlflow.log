@@ -1,0 +1,12 @@
+2026-09-24 14:09:53,110 | INFO | __main__ | Part 3 Task 4 MLflow tracking started
+2026-09-24 14:09:53,243 | INFO | __main__ | Loaded Task 4 dataset: 48187 rows x 9 columns
+2026-09-24 14:09:53,243 | INFO | __main__ | Loaded Task 1 metrics: 4 model records
+2026-09-24 14:09:53,326 | INFO | __main__ | MLflow tracking URI: sqlite:///mlflow.db
+2026-09-24 14:09:58,883 | INFO | __main__ | MLflow experiment ready: Smart City Traffic Intelligence - Part 3 (id=1)
+2026-09-24 14:10:00,177 | INFO | __main__ | MLflow run saved: model=logistic_regression task=classification run_id=eb01eee78f0349ea95ca22f88627e95d metrics={'accuracy': 0.9655530192986096, 'precision': 0.7747093023255814, 'recall': 0.9797794117647058, 'f1': 0.8652597402597403, 'roc_auc': 0.9934830796353628}
+2026-09-24 14:10:00,659 | INFO | __main__ | MLflow run saved: model=random_forest_classifier task=classification run_id=fe420bb775944881b727011227a98023 metrics={'accuracy': 0.9867192363560904, 'precision': 0.9363636363636364, 'recall': 0.9466911764705882, 'f1': 0.9414990859232176, 'roc_auc': 0.9981669246646028}
+2026-09-24 14:10:00,757 | INFO | __main__ | MLflow run saved: model=linear_regression task=regression run_id=750a266e86fe4cb1a70aeee09d00a19a metrics={'mae': 818.0308132628202, 'r2': 0.7148735645926061}
+2026-09-24 14:10:00,879 | INFO | __main__ | MLflow run saved: model=hist_gradient_boosting_regressor task=regression run_id=570b06ed83ec4312b0ef26b65af60d23 metrics={'mae': 257.6017087561784, 'r2': 0.9506772653022968}
+2026-09-24 14:10:00,894 | INFO | __main__ | MLflow summary saved: results/task4_mlflow_runs.csv
+2026-09-24 14:10:00,895 | INFO | __main__ | Tracked 4 models/runs in MLflow
+2026-09-24 14:10:00,896 | INFO | __main__ | Part 3 Task 4 MLflow tracking completed successfully

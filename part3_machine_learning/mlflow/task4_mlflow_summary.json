@@ -1,0 +1,6 @@
+{
+  "experiment": "Smart City Traffic Intelligence - Part 3",
+  "tracking_uri": "sqlite:///mlflow.db",
+  "tracked_runs": 4,
+  "note": "Execution recorded in the clean Colab notebook; SQLite tracking database was generated in Colab."
+}
